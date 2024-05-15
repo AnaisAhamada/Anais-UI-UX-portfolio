@@ -1,2 +1,4 @@
-For the project, you will see i only put a picture because for now, i needed to think about how i can display it
-so im am doing some wireframes of my website so when i tackle css , i know what to do !
+Update 15/05/2024 ( statement )
+I removed my project page because i want to focus on the aboutme and home page first ! 
+I put the basis of my css just so i understand the exercise but i will take extra time after to make the website i am dreaming of ! 
+So i will just finish the exercise and try everything so i learn without headaches !
