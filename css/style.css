@@ -1,0 +1,125 @@
+@media only screen and (min-width: 1440px) {}
+
+body {
+    background-color: rgb(255, 255, 255);
+
+}
+
+body h1 {
+    color: rgb(254, 247, 255);
+    text-align: center;
+}
+
+h2 {
+    color: rgb(254, 247, 255);
+    text-align: center;
+}
+
+button {
+    transition-duration: 0.2s;
+    transition-property: opacity;
+    place-content: center;
+    background-color: rgb(255, 255, 255);
+    color: #6564FF;
+    border: 2px solid #6564FF;
+    border-radius: 12px;
+    margin: 20px;
+    padding: 14px 20px
+}
+
+.btn:hover {
+    background-color: #3e8e41;
+    color: white;
+}
+
+p {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: small;
+    margin: 20px;
+}
+
+h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: larger;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+h3 {
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
+    padding: 20px 0;
+    margin: 20px;
+}
+
+ul {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: small;
+    margin: 20px;
+}
+
+li {
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: small;
+    margin: 30px;
+}
+
+header {
+    background-color: #6564FF;
+    padding: 20px 0;
+    margin: 20px;
+    border-bottom: 3px solid #4a4a4a;
+    border: 3px solid #4a4a4a;
+    text-align: center;
+}
+
+
+
+img {
+    display: block;
+    width: 100%;
+    margin: 20px;
+    padding: 20px 0;
+
+}
+
+.row {
+    margin: 25px 0;
+    /* 25px top and bottom, 0 left and right */
+}
+
+
+#work .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.row::after {
+    content: "work2 .row";
+    clear: both;
+    display: block;
+}
+.col-md-6 {
+    float: left;
+}
+
+#work2 .row {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #4a4a4a;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+footer {
+    background-color: antiquewhite;
+    color: black;
+}
